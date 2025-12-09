@@ -1,4 +1,3 @@
-import { Link } from "react-router";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Skills from "../components/Skills";
@@ -9,12 +8,8 @@ function Home() {
     <>
       <Hero />
       <About />
-      <div id="skills">
-        <Skills />
-      </div>
-      <div id="projects">
-        <Projects />
-      </div>
+      <Skills />
+      <Projects />
     </>
   );
 }

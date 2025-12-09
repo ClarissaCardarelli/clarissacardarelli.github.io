@@ -6,7 +6,7 @@ function Hero() {
       <div className="hero-container">
         <p className="body-text">Bonjour, je suis</p>
         <h1 className="primary-title gradient-text">Clarissa Cardarelli</h1>
-        <p className="body-text job-title">Développeur Full Stack </p>
+        <p className="job-title">Développeur Full Stack </p>
         <p className="body-text">
           Passionate about crafting beautiful, user-friendly web experiences.
           Ready to bring fresh perspectives and creative solutions to your team.

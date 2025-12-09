@@ -4,14 +4,14 @@
     --font-family: "Outfit", sans-serif;
 
 	--font-size-h1: 5rem;    
-	--font-size-h2: 2.25rem; /* 36px */
-	--font-size-h3: 1.5rem;  /* 24px */
-	--font-size-text: 1rem;  /* 16px */
+	--font-size-h2: 2rem; 
+	--font-size-h3: 1.5rem;  
+	--font-size-text: 1rem;  
 
     /* Font weights */
-    --font-weight-h1: 900;
-    --font-weight-h2: 400;
-    --font-weight-h3: 500;
+    --font-weight-h1: 700;
+    --font-weight-h2: 600;
+    --font-weight-h3: 600;
     --font-weight-text: 300;
     --font-weight-text-strong: 500;
 

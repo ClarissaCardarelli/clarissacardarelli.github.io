@@ -1,6 +1,13 @@
+/* section{
+    border: 2px solid orange;
+} */
+
+*{
+    font-family: var(--font-family);
+}
+
 .primary-title {
 	color: var(--primary-dark);
-	font-family: var(--font-family);
 	font-size: var(--font-size-h1);
 	font-weight: var(--font-weight-h1);
     letter-spacing: var(--letter-spacing-h1);
@@ -8,21 +15,28 @@
 
 .secondary-title {
 	color: var(--primary-dark);
-	font-family: var(--font-family);
-	font-size: var(--font-size-h1);
-	font-weight: var(--font-weight-h1);
+	font-size: var(--font-size-h2);
+	font-weight: var(--font-weight-h2);
+    letter-spacing: var(--letter-spacing-h1);
+    text-align: center;
+    padding: 2rem 0;
 }
 
 .body-text {
 	color: var(--primary-dark);
-	font-family: var(--font-family);
 	font-size: var(--font-size-text);
 	font-weight: var(--font-weight-text);
     max-width: 65ch;
 }
 
+/* .body-text-green{
+    color: var(--accent-blue);
+	font-size: var(--font-size-text);
+	font-weight: var(--font-weight-text);
+    max-width: 65ch;
+} */
+
 .gradient-text {
-  font-weight: bold;
   background: var(--gradient-text);
   background-clip: text; 
   color: transparent; 
@@ -33,7 +47,7 @@
     font-weight: var(--font-weight-text-strong);
     text-decoration: none;
     padding: 0.5em 1em;
-    border-radius: 5px;
+    border-radius: 0.3rem;
     display: flex;
     justify-content: center;
     align-items: center;

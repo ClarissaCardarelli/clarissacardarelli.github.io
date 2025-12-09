@@ -5,7 +5,23 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 4rem;
+    gap: 2rem;
+}
 
+footer h3{
+	font-family: var(--font-family);
+	font-size: var(--font-size-h3);
+	font-weight: var(--font-weight-h3);
+    text-align: center;
+}
+
+.body-text-white{
+    color: var(--primary-light);
+	font-family: var(--font-family);
+	font-size: var(--font-size-text);
+	font-weight: var(--font-weight-text);
+    max-width: 65ch;
 }
 
 .footer-button-container{
@@ -13,11 +29,6 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-}
-
-.footer-icon{
-    color: var(--primary-light);
-    font-size: 1.5rem;
 }
 
 .footer-link{
@@ -30,4 +41,37 @@ footer{
     border:none;
     background-color: rgba(249, 250, 251, 0.2);
     cursor: pointer;
+    line-height: 0; 
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.footer-link:hover {
+    transform: scale(1.1);
+}
+
+.footer-icon{
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    color: var(--primary-light);
+    font-size: 1.5rem;
+}
+
+.line-break{
+    width: 40%;
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(249, 250, 251, 0.2);
+}
+
+.footer-link-GH:hover{
+    background-color: var(--accent-blue);
+}
+
+.footer-link-LN:hover{
+    background-color: var(--accent-teal);
+}
+
+.footer-link-GM:hover{
+    background-color: var(--accent-orange);
 }
