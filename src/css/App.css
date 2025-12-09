@@ -1,0 +1,57 @@
+.primary-title {
+	color: var(--primary-dark);
+	font-family: var(--font-family);
+	font-size: var(--font-size-h1);
+	font-weight: var(--font-weight-h1);
+    letter-spacing: var(--letter-spacing-h1);
+}
+
+.secondary-title {
+	color: var(--primary-dark);
+	font-family: var(--font-family);
+	font-size: var(--font-size-h1);
+	font-weight: var(--font-weight-h1);
+}
+
+.body-text {
+	color: var(--primary-dark);
+	font-family: var(--font-family);
+	font-size: var(--font-size-text);
+	font-weight: var(--font-weight-text);
+    max-width: 65ch;
+}
+
+.gradient-text {
+  font-weight: bold;
+  background: var(--gradient-text);
+  background-clip: text; 
+  color: transparent; 
+}
+
+.btn{
+    border: none;
+    font-weight: var(--font-weight-text-strong);
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    cursor: pointer;
+}
+
+.blue-btn{
+    color: var(--primary-light);
+    background-color: var(--accent-blue);
+}
+
+.green-btn{
+    color: var(--primary-light);
+    background-color: var(--accent-teal);
+}
+
+.orange-btn{
+    color: var(--primary-light);
+    background-color: var(--accent-orange);
+}
