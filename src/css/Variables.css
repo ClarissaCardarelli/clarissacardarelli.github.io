@@ -4,22 +4,7 @@
     --accent-orange: #F97316;
     --accent-teal: #0D9488;
     --accent-blue: #1E3A8A;
-    --gradient-text: linear-gradient(90deg,oklch(60.023% 0.10385 184.741) 0%, oklch(37.907% 0.13782 265.536) 100%);
-    --gradient-bg: linear-gradient(
-        to right, 
-      oklch(52.182% 0.09594 172.012 / 0.15), 
-        oklch(40.823% 0.13251 259.76 / 0.15)
-    );
-   
-
-
-	/* --blue-border: 3px solid var(--light-blue);
-	--blue-shadow: 0px 0px 1.5rem 0px var(--light-blue);
-	--primary-background: linear-gradient(
-		to bottom,
-		var(--dark-purple),
-		var(--black)
-	);  */
+    --gradient-text: linear-gradient(90deg, var(--accent-teal) 0%, var(--accent-blue) 100%);
 }
 
 

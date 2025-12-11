@@ -1,16 +1,28 @@
-.hero-bg{
+.hero-bg {
     background-color: var(--primary-light);
-    background-image: var(--gradient-bg);
+    background-image: linear-gradient(
+        90deg, 
+        rgba(20, 123, 99, 0.3), 
+        rgba(24, 70, 144, 0.3)
+    );
+    background-size: 400% 400%; 
+    background-repeat: no-repeat;
     height: 100vh;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: gradientMove 12s ease-in-out infinite;
+}
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
 }
 
 .hero-container{
-    /* border: 1px solid red; */
-    width: 60%;
+    max-width: 700px;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,11 +30,7 @@
     gap: 2rem;
 }
 
-.nav button{
-  flex: 1; 
-}
-
-.job-title{
+header h2{
     color: var(--primary-dark);
 	font-size: var(--font-size-h2);
 	font-weight: var(--font-weight-h2);
@@ -31,6 +39,7 @@
 
 .hero-buttons-container{
     display: flex;
+    flex-direction: row;
     gap: 2rem;
 }
 

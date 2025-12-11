@@ -8,20 +8,20 @@
 	--font-size-h3: 1.5rem;  
 	--font-size-text: 1rem;  
 
-    /* Font weights */
     --font-weight-h1: 700;
     --font-weight-h2: 600;
     --font-weight-h3: 600;
     --font-weight-text: 300;
     --font-weight-text-strong: 500;
 
-    /* Line heights */
+
     /* --line-height-h1: 1.1;
     --line-height-h2: 1.2;
     --line-height-h3: 1.25;
     --line-height-text: 1.6; */
+    
+    --line-height-text: 1.2;
 
-    /* Letter spacing */
     --letter-spacing-h1: -0.03em;
     /* --letter-spacing-h2: -0.015em;
     --letter-spacing-h3: -0.01em;
