@@ -1,5 +1,5 @@
 #skills{
-    background-color:var(--primary-light);
+    background-color:white;
     scroll-margin-top: 5rem;
 }
 
@@ -9,8 +9,7 @@
     justify-content: center;
     gap: 1rem;
     margin: 0 auto;
-    max-width: 1000px;
-    width: 100%;
+    max-width: 60%;
     /* border: 1px solid red; */
 }
 

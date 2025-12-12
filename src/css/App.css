@@ -32,7 +32,7 @@ section{
 	font-size: var(--font-size-text);
 	font-weight: var(--font-weight-text);
     line-height: var(--line-height-text);
-    max-width: 55ch;
+    max-width: 47ch;
 }
 
 .gradient-text {

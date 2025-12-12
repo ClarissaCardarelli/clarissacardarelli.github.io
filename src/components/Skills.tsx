@@ -13,7 +13,7 @@ function Skills() {
     { icon: "devicon:mysql", skill: "MySQL" },
     { icon: "devicon:git", skill: "Git" },
     { icon: "devicon:github", skill: "GitHub" },
-    { icon: "devicon:docker", skill: "Docker" },
+    // { icon: "devicon:docker", skill: "Docker" },
     { icon: "devicon:figma", skill: "Figma" },
   ];
 
