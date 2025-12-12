@@ -1,5 +1,7 @@
 #projects{
     position: relative;
+    background-color: var(--primary-light);
+    scroll-margin-top: 5rem;
 }
 
 #projects::after {

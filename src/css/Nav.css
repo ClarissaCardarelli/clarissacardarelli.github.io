@@ -36,45 +36,4 @@
 }
 
 
-.nav-btn{
-    background-color: var(--accent-orange);
-    color: var(--primary-light);
-	font-family: var(--font-family);
-	font-size: var(--font-size-text);
-    font-weight: var(--font-weight-text-strong);
-    width: 200px;  
-    text-decoration: none;
-    padding: 0.6em 1em;
-    border-radius: 0.3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5em;
-    cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.3s ease;
-}
 
-
-.btn{
-    background-color: var(--accent-orange);
-    color: var(--primary-light);
-	font-family: var(--font-family);
-	font-size: var(--font-size-text);
-    font-weight: var(--font-weight-text-strong);
-    width: 200px;  
-
-    text-decoration: none;
-    padding: 0.6em 1em;
-    border-radius: 0.3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5em;
-    cursor: pointer;
-    transition: transform 0.2s ease, box-shadow 0.3s ease;
-}
-
-.btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
-}

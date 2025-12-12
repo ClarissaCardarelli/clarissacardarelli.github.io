@@ -1,5 +1,14 @@
 *{
     font-family: var(--font-family);
+    scroll-behavior: smooth;
+}
+
+a{
+    font-family: var(--font-family);
+}
+
+section{
+    padding-bottom: 4rem;
 }
 
 .primary-title {
@@ -46,8 +55,8 @@
 }
 
 .btn:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.5);
 }
 
 .blue-btn{
