@@ -2,6 +2,7 @@ import { useState } from "react";
 import "../css/Skills.css";
 import FilterButton from "./FilterButton";
 import HardSkillCard from "./HardSkillCard";
+import SoftSkillMenu from "./SoftSkillMenu";
 
 function Skills() {
   const allSkills = [
@@ -10,19 +11,15 @@ function Skills() {
     { icon: "devicon:javascript", skill: "JavaScript", category: "Front" },
     { icon: "devicon:typescript", skill: "TypeScript", category: "Front" },
     { icon: "devicon:react", skill: "React", category: "Front" },
-    // { icon: "devicon:nextjs", skill: "Next.js", category: "Frontend" },
-    // { icon: "devicon:tailwindcss", skill: "Tailwind CSS", category: "Frontend" },
 
     { icon: "devicon:nodejs", skill: "Node.js", category: "Back" },
     { icon: "devicon:express", skill: "Express", category: "Back" },
     { icon: "devicon:mysql", skill: "MySQL", category: "Back" },
-    // { icon: "devicon:postgresql", skill: "PostgreSQL", category: "Backend" },
     { icon: "mdi:api", skill: "REST APIs", category: "Back" },
 
     { icon: "devicon:git", skill: "Git", category: "Tools" },
     { icon: "devicon:github", skill: "GitHub", category: "Tools" },
     { icon: "devicon:vscode", skill: "VS Code", category: "Tools" },
-    // { icon: "devicon:docker", skill: "Docker", category: "Tools" },
     { icon: "devicon:figma", skill: "Figma", category: "Design" },
   ];
 
@@ -78,7 +75,9 @@ function Skills() {
             <HardSkillCard key={s.skill} skill={s.skill} icon={s.icon} />
           ))}
       </div>
-      <div className="soft-skills-container"></div>
+      <div className="soft-skills-container">
+        <SoftSkillMenu />
+      </div>
     </section>
   );
 }
