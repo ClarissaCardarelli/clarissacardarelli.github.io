@@ -1,10 +1,9 @@
 #skills{
-    background-color:white;
+    background-color:#FFF;
     scroll-margin-top: 5rem;
 }
 
 .filter-buttons-container{
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
     padding: 2rem 0;
@@ -38,10 +37,9 @@
     justify-content: center;
     align-content: flex-start;
     gap: 1rem;
-    margin: 0 auto;
-    max-width: 60%;
-    /* border: 1px solid red; */
-    height: 300px;
+    margin: 0 auto 2rem;
+    max-width: 1200px;
+    min-height: 250px;
 }
 
 .hard-skill-card{
@@ -69,7 +67,7 @@
 }
 
 .skill-icon {
-  font-size: 2rem;  
+    font-size: 2rem;  
 }
 
 .soft-skill-card{
@@ -78,93 +76,95 @@
 
 
 .soft-menu-container ul {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  gap: 25px;
-  border: 1px solid red;
+    padding: 2rem 0;
+    max-width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 2rem;
 }
 
 .soft-menu-container ul li {
-  position: relative;
-  list-style: none;
-  width: 60px;
-  height: 60px;
-  background: orange;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  border-radius: 60px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 0.5s;
+    position: relative;
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    background: var(--accent-orange);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    border-radius: 60px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
 }
 
 .soft-menu-container ul li::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: 60px;
-  background: linear-gradient(45deg, var(--i), var(--j));
-  opacity: 0;
-  transition: 0.5s;
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 60px;
+    background: linear-gradient(45deg, var(--color1), var(--color2));
+    opacity: 0;
+    transition: 0.5s;
 }
 
 .soft-menu-container ul li::after {
-  content: "";
-  position: absolute;
-  top: 10px;
-  width: 100%;
-  height: 100%;
-  border-radius: 60px;
-  background: linear-gradient(45deg, var(--i), var(--j));
-  transition: 0.5s;
-  filter: blur(15px);
-  z-index: -1;
-  opacity: 0;
+    content: "";
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    height: 100%;
+    border-radius: 60px;
+    background: linear-gradient(45deg, var(--color1), var(--color2));
+    transition: 0.5s;
+    filter: blur(15px);
+    z-index: -1;
+    opacity: 0;
 }
 
 .soft-menu-container ul li:hover {
-  width: 180px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+    width: 200px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
 }
 
 .soft-menu-container ul li:hover::before {
-  opacity: 1;
+    opacity: 1;
 }
 
 .soft-menu-container ul li:hover::after {
-  opacity: 0.5;
+    opacity: 0.5;
 }
 
 .soft-menu-container ul li .icon {
-  color: var(--primary-light);
-  font-size: 1.75em;
-  transition: 0.5s;
-  transition-delay: 0.25s;
+    color: var(--primary-light);
+    font-size: 2rem;
+    transition: 0.5s;
+    transition-delay: 0.25s;
 }
 
 .soft-menu-container ul li:hover .icon {
-  transform: scale(0);
-  color: black;
-  transition-delay: 0s;
+    transform: scale(0);
+    transition-delay: 0s;
 }
 
 .soft-menu-container ul li span {
-  position: absolute;
+    position: absolute;
 }
 
 .soft-menu-container ul li .title {
-  color: #fff;
-  font-size: 1.1em;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  transform: scale(0);
-  transition: 0.5s;
-  transition-delay: 0s;
+    color: var(--primary-light);
+    font-weight: var(--font-weight-text-strong);
+    letter-spacing: 0.1em; 
+    text-transform: uppercase;
+    transform: scale(0);
+    transition: 0.5s;
+    transition-delay: 0s;
 }
 
 .soft-menu-container ul li:hover .title {
-  transform: scale(1);
-  transition-delay: 0.25s;
+    transform: scale(1);
+    transition-delay: 0.25s;
 }

@@ -49,9 +49,13 @@ function Skills() {
       <h2 className="secondary-title">
         Mes <span className="gradient-text">Compétences</span>
       </h2>
+
+      <h3 className="section-title">Compétences techniques</h3>
+
       <div className="filter-buttons-container">
         {filterBtns.map((skill) => (
           <FilterButton
+            key={skill.name}
             className={
               filter == skill.value
                 ? "body-text filter-button active"
@@ -63,18 +67,20 @@ function Skills() {
           />
         ))}
       </div>
+
       <div className="hard-skills-container">
         {allSkills
-          .filter((skill) => {
+          .filter((s) => {
             if (filter === "Autre") {
-              return skill.category === "Tools" || skill.category === "Design";
+              return s.category === "Tools" || s.category === "Design";
             }
-            return !filter || skill.category === filter;
+            return !filter || s.category === filter;
           })
           .map((s) => (
             <HardSkillCard key={s.skill} skill={s.skill} icon={s.icon} />
           ))}
       </div>
+
       <div className="soft-skills-container">
         <SoftSkillMenu />
       </div>

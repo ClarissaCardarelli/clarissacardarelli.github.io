@@ -24,7 +24,29 @@ section{
 	font-weight: var(--font-weight-h2);
     letter-spacing: var(--letter-spacing-h1);
     text-align: center;
-    padding: 4rem 0 2rem;
+    padding: 4rem 0;
+    position: relative;
+}
+
+.secondary-title::after {
+    content: "";
+    position: absolute;
+    top: calc(70%);
+    height: 5px;
+    width: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--accent-orange);
+    border-radius: 5px;
+}
+
+.section-title {
+	color: var(--primary-dark);
+	font-size: var(--font-size-h3);
+	font-weight: var(--font-weight-h3);
+    letter-spacing: var(--letter-spacing-h1);
+    text-align: center;
+    padding: 1rem 0;
 }
 
 .body-text {
