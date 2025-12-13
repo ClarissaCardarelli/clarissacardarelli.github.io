@@ -1,7 +1,20 @@
-function ProjectCard() {
+function ProjectCard({ project }) {
   return (
-    <div style={{ width: "200px", height: "300px", border: "1px solid blue" }}>
-      Project Name
+    <div className="project-card">
+      <div className="project-img-container">
+        <img src={project.image} alt="hello" />
+      </div>
+      <article>
+        <h3 className="section-title">{project.title}</h3>
+        <p className="body-text">{project.description}</p>
+        <div className="tags">
+          {project.tags.map((tag, index) => (
+            <span key={index} className="tag">
+              {tag}
+            </span>
+          ))}
+        </div>
+      </article>
     </div>
   );
 }
