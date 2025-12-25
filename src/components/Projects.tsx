@@ -20,6 +20,17 @@ function Projects() {
         <span className="gradient-text">{t.projects.subtitle}</span>
       </h2>
 
+      <div className="carouselBtns">
+        <i
+          className="bi bi-arrow-left-circle-fill carouselBtn"
+          onClick={() => emblaApi?.scrollPrev()}
+        />
+        <i
+          className="bi bi-arrow-right-circle-fill carouselBtn"
+          onClick={() => emblaApi?.scrollNext()}
+        />
+      </div>
+
       <section className="project-card-container">
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container">
@@ -31,21 +42,6 @@ function Projects() {
           </div>
         </div>
       </section>
-
-      <button
-        type="button"
-        className="carousel-arrow left"
-        onClick={() => emblaApi?.scrollPrev()}
-      >
-        prev
-      </button>
-      <button
-        type="button"
-        className="carousel-arrow right"
-        onClick={() => emblaApi?.scrollNext()}
-      >
-        next
-      </button>
     </section>
   );
 }
