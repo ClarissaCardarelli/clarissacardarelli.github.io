@@ -13,18 +13,8 @@
     --font-weight-h3: 600;
     --font-weight-text: 300;
     --font-weight-text-strong: 500;
-
-
-    /* --line-height-h1: 1.1;
-    --line-height-h2: 1.2;
-    --line-height-h3: 1.25;
-    --line-height-text: 1.6; */
     
     --line-height-text: 1.4;
-
+    
     --letter-spacing-h1: -0.03em;
-    /* --letter-spacing-h2: -0.015em;
-    --letter-spacing-h3: -0.01em;
-    --letter-spacing-text: 0em;
-    --letter-spacing-small: 0.02em; */
 }

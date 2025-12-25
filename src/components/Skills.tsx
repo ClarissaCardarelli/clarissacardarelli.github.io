@@ -3,8 +3,11 @@ import "../css/Skills.css";
 import FilterButton from "./FilterButton";
 import HardSkillCard from "./HardSkillCard";
 import SoftSkillMenu from "./SoftSkillMenu";
+import { useLanguage } from "../context/LanguageContext";
 
 function Skills() {
+  const { t } = useLanguage();
+
   const allSkills = [
     { icon: "devicon:html5", skill: "HTML", category: "Front" },
     { icon: "devicon:css3", skill: "CSS", category: "Front" },
@@ -24,22 +27,10 @@ function Skills() {
   ];
 
   const filterBtns = [
-    {
-      name: "Tous",
-      value: "",
-    },
-    {
-      name: "Frontend",
-      value: "Front",
-    },
-    {
-      name: "Backend",
-      value: "Back",
-    },
-    {
-      name: "Outils & Design",
-      value: "Autre",
-    },
+    { name: t.skills.all, value: "" },
+    { name: t.skills.frontend, value: "Front" },
+    { name: t.skills.backend, value: "Back" },
+    { name: t.skills.tools, value: "Autre" },
   ];
 
   const [filter, setFilter] = useState("");
@@ -47,10 +38,11 @@ function Skills() {
   return (
     <section id="skills">
       <h2 className="secondary-title">
-        Mes <span className="gradient-text">Compétences</span>
+        {t.skills.title}
+        <span className="gradient-text">{t.skills.subtitle}</span>
       </h2>
 
-      <h3 className="section-title">Compétences techniques</h3>
+      <h3 className="section-title">{t.skills.technical}</h3>
 
       <div className="filter-buttons-container">
         {filterBtns.map((skill) => (

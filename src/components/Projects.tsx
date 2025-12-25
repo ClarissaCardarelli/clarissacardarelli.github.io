@@ -1,16 +1,23 @@
+import { useLanguage } from "../context/LanguageContext";
 import "../css/Projects.css";
-import projects from "../data/Projects_data.tsx";
+import Projects_data from "../data/Projects_data";
 import ProjectCard from "./ProjectCard";
-// import { EmblaOptionsType } from "embla-carousel";
 import useEmblaCarousel from "embla-carousel-react";
 
 function Projects() {
+  const { t } = useLanguage();
   const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true });
+
+  const projects = Projects_data.map((p) => ({
+    ...p,
+    description: t.projects[p.descriptionKey as keyof typeof t.projects],
+  }));
 
   return (
     <section id="projects">
       <h2 className="secondary-title">
-        Mes <span className="gradient-text">Projets</span>
+        {t.projects.title}
+        <span className="gradient-text">{t.projects.subtitle}</span>
       </h2>
 
       <section className="project-card-container">

@@ -33,7 +33,6 @@
 .project-card-container{ 
   margin: 0 auto;
   width: 65%;
-
 }
 
 .project-card{
@@ -108,7 +107,6 @@
 }
 
 .tags{
-  /* border: 1px solid green; */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

@@ -1,37 +1,41 @@
+import { useLanguage } from "../context/LanguageContext";
+
 function SoftSkillMenu() {
+  const { t } = useLanguage();
+
   const softSkills = [
     {
-      title: "Adaptabilité",
+      title: t.softSkills.soft1,
       color1: "--accent-teal",
       color2: "--accent-blue",
       icon: "bi bi-shuffle",
     },
     {
-      title: "Résolution",
+      title: t.softSkills.soft2,
       color1: "--accent-orange",
       color2: "--accent-blue",
       icon: "bi bi-exclamation-circle",
     },
     {
-      title: "Collaboration",
+      title: t.softSkills.soft3,
       color1: "--accent-orange",
       color2: "--accent-teal",
       icon: "bi bi-people",
     },
     {
-      title: "Organisation",
+      title: t.softSkills.soft4,
       color1: "--accent-teal",
       color2: "--accent-blue",
       icon: "bi bi-clock",
     },
     {
-      title: "Communication",
+      title: t.softSkills.soft5,
       color1: "--accent-orange",
       color2: "--accent-blue",
       icon: "bi bi-chat",
     },
     {
-      title: "Précision",
+      title: t.softSkills.soft6,
       color1: "--accent-orange",
       color2: "--accent-teal",
       icon: "bi bi-check2-circle",
@@ -41,7 +45,7 @@ function SoftSkillMenu() {
   return (
     <>
       <div className="soft-menu-container">
-        <h3 className="section-title">Savoir-être</h3>
+        <h3 className="section-title">{t.skills.soft}</h3>
         <ul>
           {softSkills.map((skill, index) => (
             <li

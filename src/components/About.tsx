@@ -1,11 +1,14 @@
 import "../css/About.css";
 import profile_photo from "../assets/images/Cv_photo_transparent.png";
+import { useLanguage } from "../context/LanguageContext";
 
 function About() {
+  const { t } = useLanguage();
   return (
     <section id="about">
       <h2 className="secondary-title">
-        À propos de <span className="gradient-text">Moi</span>
+        {t.about.title}
+        <span className="gradient-text">{t.about.me} </span>
       </h2>
       <div className="about-container">
         <div className="photo-container">
@@ -15,34 +18,22 @@ function About() {
         </div>
         <div className="about-text-container">
           <p className="body-text">
-            Après plusieurs années dans la gestion de projets et les relations
-            internationales,{" "}
-            <span className="highlight-text">
-              j'ai souhaité relever un nouveau défi professionnel.
-            </span>{" "}
-            Aujourd'hui, je suis développeuse full-stack, motivée par la
-            création d'applications web modernes, fiables et agréables à
-            utiliser.
+            {t.about.p1_before}
+            <span className="highlight-text">{t.about.p1_highlight}</span>
+            {t.about.p1_after}
           </p>
 
           <br />
           <p className="body-text">
-            Avec un parcours mêlant{" "}
-            <span className="highlight-text">
-              management, business development et enseignement,
-            </span>{" "}
-            j'ai appris à évoluer dans des environnements dynamiques et à
-            collaborer avec des équipes variées. J'apprécie particulièrement les
-            projets où sens, créativité et rigueur technique se rencontrent.
+            {t.about.p2_before}
+            <span className="highlight-text">{t.about.p2_highlight}</span>
+            {t.about.p2_after}
           </p>
           <br />
           <p className="body-text">
-            En dehors du code, je suis passionnée par les langues, les voyages
-            et les défis en tous genres — puzzles, nouveaux hobbies, découvertes
-            culturelles ou pratiques sportives. Ce{" "}
-            <span className="highlight-text">goût de l'exploration</span> se
-            retrouve dans ma manière d'aborder le développement : apprendre,
-            tester et évoluer en permanence.
+            {t.about.p3_before}
+            <span className="highlight-text">{t.about.p3_highlight}</span>
+            {t.about.p3_after}
           </p>
         </div>
       </div>
