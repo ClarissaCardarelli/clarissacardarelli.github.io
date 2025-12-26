@@ -19,7 +19,7 @@ function ProjectCard({
     <div className="project-card">
       <div className="project-img-container">
         {image ? (
-          <img src={image} alt="" />
+          <img src={image} alt={title} />
         ) : (
           <p className="secondary-title temp-project">{t.projects.encours}</p>
         )}
