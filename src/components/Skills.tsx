@@ -73,9 +73,7 @@ function Skills() {
           ))}
       </div>
 
-      <div className="soft-skills-container">
-        <SoftSkillMenu />
-      </div>
+      <SoftSkillMenu />
     </section>
   );
 }

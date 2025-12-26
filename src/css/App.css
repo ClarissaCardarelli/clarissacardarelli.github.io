@@ -100,12 +100,20 @@ section{
 
 @media (max-width: 480px){
 
+section{
+    padding-bottom: 2rem;
+}
+
 .secondary-title {
     padding: 2rem 0;
 }
 
 .secondary-title::after {
     top: calc(80%);
+}
+
+.section-title {
+    padding: 0.5rem 0;
 }
 
 }

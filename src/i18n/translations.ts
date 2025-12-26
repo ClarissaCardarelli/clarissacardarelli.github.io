@@ -3,6 +3,7 @@ export type Language = "fr" | "en";
 export const translations = {
   fr: {
     nav: {
+      title: "Portfolio de Clarissa Cardarelli",
       skills: "Mes Compétences",
       projects: "Mes Projets",
       cv: "Mon CV",
@@ -72,7 +73,7 @@ export const translations = {
     description3:
       "Ce site. Présentation de mes projets, compétences et expérience en tant que développeur web.",
     description4:
-      "Cahier de liaison numérique permettant les échanges entre parents et école, avec gestion des tickets, messages ciblés et annonces scolaires.",
+      "Cahier de liaison numérique entre parents et école, avec gestion des tickets, messages ciblés et annonces scolaires.",
       
   },
 
@@ -85,6 +86,7 @@ export const translations = {
 
   en: {
      nav: {
+      title: "Clarissa Cardarelli's Portfolio",
       skills: "My Skills",
       projects: "My Projects",
       cv: "My CV",
@@ -154,7 +156,7 @@ export const translations = {
     description3:
       "This website. Showcasing my projects, skills, and experience as a web developer.",
     description4:
-      "Digital communication notebook allowing exchanges between parents and their kids' school, including ticket management, targeted messages, and school announcements.",
+      "Digital communication notebook between parents and school, including ticket management, targeted messages, and school announcements.",
   },
 
     footer: {

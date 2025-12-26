@@ -7,6 +7,9 @@ function Nav() {
   return (
     <nav className="nav">
       <ul>
+        <li className="nav-title">
+          <p>{t.nav.title}</p>
+        </li>
         <li>
           <a href="#skills" className="nav-link">
             {t.nav.skills}
@@ -27,7 +30,9 @@ function Nav() {
           </a>
         </li>
       </ul>
-      <LanguageSwitch />
+      <div className="lang-container">
+        <LanguageSwitch />
+      </div>
     </nav>
   );
 }
