@@ -7,6 +7,7 @@ export const translations = {
       skills: "Mes Compétences",
       projects: "Mes Projets",
       cv: "Mon CV",
+      download: "/files/CV_Clarissa_Cardarelli_2026_FR.pdf"
     },
 
     hero: {
@@ -67,7 +68,7 @@ export const translations = {
     demo: "Démo",
     encours: "Projet en cours",
     description1:
-      "Application web pour un bar à chats, initialement en React, en cours de refonte en Next.js et Tailwind avec l'ajoute d'un backend en Next.js.",
+      "Application web pour un bar à chats, initialement en React, en cours de refonte en Next.js et Tailwind avec l'ajout d'un backend en Next.js.",
     description2:
       "Recommandations de films personnalisées via un quiz interactif, accompagnées d'un catalogue de films consultable.",
     description3:
@@ -90,6 +91,7 @@ export const translations = {
       skills: "My Skills",
       projects: "My Projects",
       cv: "My CV",
+      download: "/files/CV_Clarissa_Cardarelli_2026_EN.pdf"
     },
 
     hero: {

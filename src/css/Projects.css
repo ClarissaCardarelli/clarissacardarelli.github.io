@@ -21,7 +21,6 @@
 .embla__container {
   display: flex;
   width: 100%;
-  /* align-items: stretch; */
   padding: 1rem 0;
 }
 
@@ -162,11 +161,28 @@
 
 
 
+@media (max-width: 1024px){
+
+  .embla__slide {
+    flex: 0 0 33%;
+
+  }
+
+}
+
+@media (max-width: 1024px){
+
+  .project-card article{
+    padding: 0 0.5rem;
+  }
+
+}
+
+
 @media (max-width: 768px){
 
   .embla__slide {
     flex: 0 0 50%;
-
   }
 
 }
@@ -176,22 +192,25 @@
 
   .embla__slide {
     flex: 0 0 80%;
-
-  }
-
-  .carouselBtns{
-    padding: 1rem 0;
   }
 
 }
 
 @media (max-width: 375px){
 
-    .embla__slide {
-    flex: 0 0 90%;
-
-  }
   .project-img-container{
-    min-height: 50%;
+    min-height: 40%;
   }
+
+}
+
+
+@media (max-width: 320px) {
+
+  .embla__slide {
+    flex: 0 0 90%;
+    padding: 0 0.3rem;
+  }
+
+
 }

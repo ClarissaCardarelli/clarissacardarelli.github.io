@@ -175,7 +175,9 @@
 
 @media (max-width: 768px) {
 
-    .soft-menu-container ul {
+    .soft-menu-container ul {    
+        max-width: 600px; 
+        margin: 0 auto;
         display: grid;
         grid-template-columns: repeat(3, 1fr); 
         justify-items: center;
@@ -212,17 +214,28 @@
 }
 
 .soft-menu-container ul {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); 
-        justify-items: center;
-        column-gap: 0rem; 
-        row-gap: 1rem;    
+    max-width: 350px; 
+    grid-template-columns: repeat(2, 1fr);  
 }
 
 .soft-menu-container ul li:hover {
-    width: 150px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0);
+    width: 170px;
 }
 
 
+
 }
+
+@media (max-width: 375px){
+
+
+
+} 
+
+@media (max-width: 320px){
+
+.soft-menu-container ul li:hover {
+    width: 155px;
+}
+
+} 

@@ -21,7 +21,11 @@ function Nav() {
           </a>
         </li>
         <li>
-          <a href="#" download className="body-text btn orange-btn">
+          <a
+            href={t.nav.download}
+            download
+            className="body-text btn orange-btn"
+          >
             <i
               className="bi bi-file-earmark-arrow-down btn-icon"
               aria-hidden="true"
