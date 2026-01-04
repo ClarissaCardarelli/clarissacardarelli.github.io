@@ -1,3 +1,5 @@
+import "./HardSkillFilter.css";
+
 interface FilterButtonsProps {
   className: string;
   text: string;
@@ -5,7 +7,7 @@ interface FilterButtonsProps {
   handleFilterUpdate: (value: string) => void;
 }
 
-function FilterButton({
+function HardSkillFilter({
   className,
   text,
   value,
@@ -23,4 +25,4 @@ function FilterButton({
   );
 }
 
-export default FilterButton;
+export default HardSkillFilter;

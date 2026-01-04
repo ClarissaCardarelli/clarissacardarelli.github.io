@@ -1,6 +1,6 @@
+import "./Footer.css";
 import { useEffect, useState } from "react";
-import { useLanguage } from "../context/LanguageContext";
-import "../css/Footer.css";
+import { useLanguage } from "../../context/LanguageContext";
 
 function Footer() {
   const { t } = useLanguage();

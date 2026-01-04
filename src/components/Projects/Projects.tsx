@@ -1,8 +1,8 @@
-import { useLanguage } from "../context/LanguageContext";
-import "../css/Projects.css";
-import Projects_data from "../data/Projects_data";
-import ProjectCard from "./ProjectCard";
+import { useLanguage } from "../../context/LanguageContext";
+import Projects_data from "../../data/Projects_data";
+import "./Projects.css";
 import useEmblaCarousel from "embla-carousel-react";
+import ProjectCard from "../ProjectCard/ProjectCard";
 
 function Projects() {
   const { t } = useLanguage();

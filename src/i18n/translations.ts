@@ -7,7 +7,7 @@ export const translations = {
       skills: "Mes Compétences",
       projects: "Mes Projets",
       cv: "Mon CV",
-      download: "/files/CV_Clarissa_Cardarelli_2026_FR.pdf"
+      download: "/files/CV_Clarissa_Cardarelli_FR.pdf"
     },
 
     hero: {
@@ -91,7 +91,7 @@ export const translations = {
       skills: "My Skills",
       projects: "My Projects",
       cv: "My CV",
-      download: "/files/CV_Clarissa_Cardarelli_2026_EN.pdf"
+      download: "/files/CV_Clarissa_Cardarelli_EN.pdf"
     },
 
     hero: {

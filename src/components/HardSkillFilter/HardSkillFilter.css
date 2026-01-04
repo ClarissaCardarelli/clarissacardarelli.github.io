@@ -1,0 +1,33 @@
+.filter-button{
+    min-width: 150px;
+    cursor: pointer;
+    background-color: var(--accent-teal-light);
+    border: none;
+    border-radius: 2rem;
+    padding: 0.2em 1em;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.filter-button:hover{
+    font-weight: var(--font-weight-text-strong);
+}
+
+.active{
+    background: var(--gradient-text);
+    color:var(--primary-light);
+    font-weight: var(--font-weight-text-strong);
+    border: 1px solid var(--primary-light);
+
+}
+
+@media (max-width: 480px){
+
+.filter-button{
+    min-width: 100px;
+}
+
+.filter-button:first-of-type{
+    min-width: 100%;
+}
+
+}

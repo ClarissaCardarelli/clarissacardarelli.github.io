@@ -1,6 +1,6 @@
-import "../css/Nav.css";
-import { useLanguage } from "../context/LanguageContext";
-import LanguageSwitch from "./LanguageSwitch";
+import { useLanguage } from "../../context/LanguageContext";
+import "./Nav.css";
+import LanguageSwitch from "../LanguageSwitch/LanguageSwitch";
 
 function Nav() {
   const { t } = useLanguage();

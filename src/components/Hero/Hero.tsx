@@ -1,5 +1,5 @@
-import { useLanguage } from "../context/LanguageContext";
-import "../css/Hero.css";
+import { useLanguage } from "../../context/LanguageContext";
+import "./Hero.css";
 
 function Hero() {
   const { t } = useLanguage();

@@ -1,4 +1,5 @@
 import { Icon } from "@iconify/react";
+import "./HardSkillCard.css";
 
 interface HardSkillCardProps {
   skill: string;

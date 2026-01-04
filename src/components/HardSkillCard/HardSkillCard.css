@@ -1,0 +1,35 @@
+.hard-skill-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--primary-light);
+    border: 1px solid rgba(24, 70, 144, 0.2);
+    width: 200px;
+    height: 66px;
+    padding: 1em;
+    border-radius: 0.3rem;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.hard-skill-card:hover {
+    border: 1px solid var(--accent-teal);
+    transform: translateY(-1px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.hard-skill-card p{
+    font-weight: var(--font-weight-text-strong);
+}
+
+.skill-icon {
+    font-size: 2rem;  
+}
+
+@media (max-width: 480px){
+
+.hard-skill-card{
+    width: 150px;
+}
+
+}

@@ -1,7 +1,7 @@
-import Hero from "../components/Hero";
-import About from "../components/About";
-import Skills from "../components/Skills";
-import Projects from "../components/Projects";
+import About from "../components/About/About";
+import Hero from "../components/Hero/Hero";
+import Projects from "../components/Projects/Projects";
+import Skills from "../components/Skills/Skills";
 
 function Home() {
   return (

@@ -1,4 +1,5 @@
-import { useLanguage } from "../context/LanguageContext";
+import { useLanguage } from "../../context/LanguageContext";
+import "./ProjectCard.css";
 
 interface ProjectCardProps {
   project: {

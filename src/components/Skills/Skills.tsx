@@ -1,9 +1,9 @@
 import { useState } from "react";
-import "../css/Skills.css";
-import FilterButton from "./FilterButton";
-import HardSkillCard from "./HardSkillCard";
-import SoftSkillMenu from "./SoftSkillMenu";
-import { useLanguage } from "../context/LanguageContext";
+import "./Skills.css";
+import HardSkillCard from "../HardSkillCard/HardSkillCard";
+import { useLanguage } from "../../context/LanguageContext";
+import SoftSkills from "../SoftSkills/SoftSkills";
+import HardSkillFilter from "../HardSkillFilter/HardSkillFilter";
 
 function Skills() {
   const { t } = useLanguage();
@@ -46,7 +46,7 @@ function Skills() {
 
       <div className="filter-buttons-container">
         {filterBtns.map((skill) => (
-          <FilterButton
+          <HardSkillFilter
             key={skill.name}
             className={
               filter == skill.value
@@ -73,7 +73,7 @@ function Skills() {
           ))}
       </div>
 
-      <SoftSkillMenu />
+      <SoftSkills />
     </section>
   );
 }

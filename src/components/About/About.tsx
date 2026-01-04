@@ -1,5 +1,5 @@
-import "../css/About.css";
-import { useLanguage } from "../context/LanguageContext";
+import { useLanguage } from "../../context/LanguageContext";
+import "./About.css";
 
 function About() {
   const { t } = useLanguage();

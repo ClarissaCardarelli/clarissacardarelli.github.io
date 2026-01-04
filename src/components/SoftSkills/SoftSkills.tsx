@@ -1,6 +1,7 @@
-import { useLanguage } from "../context/LanguageContext";
+import { useLanguage } from "../../context/LanguageContext";
+import "./SoftSkills.css";
 
-function SoftSkillMenu() {
+function SoftSkills() {
   const { t } = useLanguage();
 
   const softSkills = [
@@ -69,4 +70,4 @@ function SoftSkillMenu() {
   );
 }
 
-export default SoftSkillMenu;
+export default SoftSkills;

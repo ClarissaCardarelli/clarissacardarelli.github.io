@@ -1,83 +1,3 @@
-#skills{
-    background-color:#FFF;
-    scroll-margin-top: 5rem;
-}
-
-.filter-buttons-container{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 2rem 0;
-    gap: 2rem;
-    margin: 0 auto;
-}
-
-.filter-button{
-    min-width: 150px;
-    cursor: pointer;
-    background-color: var(--accent-teal-light);
-    border: none;
-    border-radius: 2rem;
-    padding: 0.2em 1em;
-    transition: background-color 0.2s ease, color 0.2s ease;
-}
-
-.filter-button:hover{
-    font-weight: var(--font-weight-text-strong);
-}
-
-.active{
-    background: var(--gradient-text);
-    color:var(--primary-light);
-    font-weight: var(--font-weight-text-strong);
-    border: 1px solid var(--primary-light);
-
-}
-
-.hard-skills-container{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: flex-start;
-    gap: 1rem;
-    margin: 0 auto 2rem;
-    max-width: 1200px;
-    min-height: 250px;
-}
-
-.hard-skill-card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    background-color: var(--primary-light);
-    border: 1px solid rgba(24, 70, 144, 0.2);
-    width: 200px;
-    height: 66px;
-    padding: 1em;
-    border-radius: 0.3rem;
-    transition: transform 0.2s ease, box-shadow 0.3s ease;
-}
-
-.hard-skill-card:hover {
-    border: 1px solid var(--accent-teal);
-    transform: translateY(-1px);
-    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
-}
-
-.hard-skill-card p{
-    font-weight: var(--font-weight-text-strong);
-}
-
-.skill-icon {
-    font-size: 2rem;  
-}
-
-.soft-skill-card{
-    background-color: #fff;
-}
-
-
 .soft-menu-container ul {
     padding: 2rem 0;
     max-width: 1200px; 
@@ -172,7 +92,6 @@
     transition-delay: 0.25s;
 }
 
-
 @media (max-width: 768px) {
 
     .soft-menu-container ul {    
@@ -187,31 +106,7 @@
 }
 
 
-
-
 @media (max-width: 480px){
-
-.filter-buttons-container{
-    padding: 1rem;
-    gap: 0.5rem;
-    max-width: 80%;
-}
-
-.filter-button{
-    min-width: 100px;
-}
-
-.filter-button:first-of-type{
-    min-width: 100%;
-}
-
-.hard-skills-container{
-    gap: 0.5rem;
-}
-
-.hard-skill-card{
-    width: 150px;
-}
 
 .soft-menu-container ul {
     max-width: 350px; 
@@ -222,15 +117,8 @@
     width: 170px;
 }
 
-
-
 }
 
-@media (max-width: 375px){
-
-
-
-} 
 
 @media (max-width: 320px){
 

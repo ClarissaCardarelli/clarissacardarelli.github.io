@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { useLanguage } from "../context/LanguageContext";
-import "../css/LanguageSwitch.css";
-import type { Language } from "../i18n/translations";
+import "./LanguageSwitch.css";
+import { useLanguage } from "../../context/LanguageContext";
+import type { Language } from "../../i18n/translations";
 
 const flags: Record<Language, string> = {
   en: "/flags/uk.png",
