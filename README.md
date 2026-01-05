@@ -12,7 +12,7 @@ This site showcases my skills, projects, and experience as a web developer.
 
 ## About
 
-This portfolio highlights my web development work, showcases my projects, and provides a hub to learn more about my skills and experience.
+This portfolio presents my web development work and provides a look into my technical and transversal skills as well as my professional journey.
 
 ## Features
 
