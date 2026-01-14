@@ -48,7 +48,8 @@
 }
 
 .project-card:hover .project-img-container::after {
-  background-color: rgb(55, 65, 81, 0.6);
+  background-color: var(--primary-dark);
+  opacity: 0.8;
 }
 
 .project-links-container{

@@ -46,7 +46,7 @@ export const translations = {
     subtitle: "Compétences",
     technical: "Compétences techniques",
     soft: "Savoir-être",
-    all: "Tous",
+    all: "Tout",
     frontend: "Frontend",
     backend: "Backend",
     tools: "Outils & Design",
@@ -75,6 +75,8 @@ export const translations = {
       "Ce site. Présentation de mes projets, compétences et expérience en tant que développeur web.",
     description4:
       "Cahier de liaison numérique entre parents et école, avec gestion des tickets, messages ciblés et annonces scolaires.",
+    description5:
+      "Mini jeu du pendu créé comme cadeau secret santa pour un collègue développeur.",
       
   },
 
@@ -159,6 +161,8 @@ export const translations = {
       "This website. Showcasing my projects, skills, and experience as a web developer.",
     description4:
       "Digital communication notebook between parents and school, including ticket management, targeted messages, and school announcements.",
+    description5:
+      "Mini Hangman game created as a secret santa gift for a fellow developer.",
   },
 
     footer: {

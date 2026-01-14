@@ -21,15 +21,23 @@ const Projects_data = [
     tags: ["React", "TypeScript", "CSS"],
     image: "/images/Portfolio_screen.png",
     ghLink: "https://github.com/ClarissaCardarelli/Portfolio",
-    demo: "",
+    demo: "https://clarissacardarelli.github.io/",
   },
   {
     title: "Le P'tit Cahier",
     descriptionKey: "description4",
-    tags: ["React", "TypeScript", "CSS", "Express"],
+    tags: ["React", "TypeScript", "CSS", "Express", "MySQL"],
     image: "",
     ghLink: "",
     demo: "",
+  },
+  {
+    title: "Mot Mystère",
+    descriptionKey: "description5",
+    tags: ["React", "TypeScript", "CSS", "Express", "PostgreSQL"],
+    image: "/images/secret_santa.png",
+    ghLink: "https://github.com/ClarissaCardarelli/secret_santa_2025",
+    demo: "https://mot-mystere.vercel.app/",
   },
 ];
 

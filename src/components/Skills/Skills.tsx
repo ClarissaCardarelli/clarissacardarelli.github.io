@@ -18,6 +18,7 @@ function Skills() {
     { icon: "devicon:nodejs", skill: "Node.js", category: "Back" },
     { icon: "devicon:express", skill: "Express", category: "Back" },
     { icon: "devicon:mysql", skill: "MySQL", category: "Back" },
+    { icon: "devicon:postgresql", skill: "PostgreSQL", category: "Back" },
     { icon: "mdi:api", skill: "REST APIs", category: "Back" },
 
     { icon: "devicon:git", skill: "Git", category: "Tools" },
